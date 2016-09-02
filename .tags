@@ -2862,7 +2862,7 @@ recycleNodesInto	lib/recycleNodesInto.js	/^function recycleNodesInto(prevData, n
 ref	src/tools/__mocks__/RelayTestUtils.js	/^        function ref(component) {$/;"	f
 relay-local-schema	website-prototyping-tools/package.json	/^    "relay-local-schema": "0.3.0",$/;"	f
 replace	website/core/Marked.js	/^function replace(regex, opt) {$/;"	f
-repository	package.json	/^  "repository": "facebook\/relay",$/;"	f
+repository	package.json	/^  "repository": "thestudentroom\/relay",$/;"	f
 repository	scripts/babel-relay-plugin/package.json	/^  "repository": "facebook\/relay",$/;"	f
 repository	website-prototyping-tools/package.json	/^  "repository": "facebook\/relay",$/;"	f
 repository	website/package.json	/^  "repository": "facebook\/relay",$/;"	f

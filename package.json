@@ -18,7 +18,7 @@
     "lib/"
   ],
   "main": "lib/Relay.js",
-  "repository": "facebook/relay",
+  "repository": "thestudentroom/relay",
   "scripts": {
     "build": "gulp",
     "jest": "NODE_ENV=test jest \"$@\"",

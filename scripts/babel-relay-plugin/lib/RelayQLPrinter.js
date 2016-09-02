@@ -7,7 +7,7 @@
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  *
- *
+ * 
  * @fullSyntaxTransform
  */
 
@@ -71,8 +71,6 @@ module.exports = function (t, options) {
     edges: 'edges',
     hasNextPage: 'hasNextPage',
     hasPreviousPage: 'hasPreviousPage',
-    totalEdges: 'totalEdges',
-    totalPages: 'totalPages',
     node: 'node',
     pageInfo: 'pageInfo'
   });
