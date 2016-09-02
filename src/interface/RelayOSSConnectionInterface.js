@@ -24,6 +24,8 @@ export type PageInfo = {
   hasNextPage: boolean,
   hasPreviousPage: boolean,
   startCursor: ?string,
+  totalEdges: number,
+  totalPages: number,
 };
 
 const CLIENT_MUTATION_ID = 'clientMutationId';
@@ -40,6 +42,8 @@ const EDGES = 'edges';
 const END_CURSOR = 'endCursor';
 const HAS_NEXT_PAGE = 'hasNextPage';
 const HAS_PREV_PAGE = 'hasPreviousPage';
+const TOTAL_EDGES = 'totalEdges';
+const TOTAL_PAGES = 'totalPages';
 const NODE = 'node';
 const PAGE_INFO = 'pageInfo';
 const REQUIRED_RANGE_CALLS = {
@@ -61,6 +65,8 @@ const RelayOSSConnectionInterface = {
   END_CURSOR,
   HAS_NEXT_PAGE,
   HAS_PREV_PAGE,
+  TOTAL_EDGES,
+  TOTAL_PAGES,
   NODE,
   PAGE_INFO,
   START_CURSOR,
@@ -95,6 +101,8 @@ const RelayOSSConnectionInterface = {
       [END_CURSOR]: undefined,
       [HAS_NEXT_PAGE]: false,
       [HAS_PREV_PAGE]: false,
+      [TOTAL_EDGES]: 0,
+      [TOTAL_PAGES]: 0,
       [START_CURSOR]: undefined,
     };
   },
